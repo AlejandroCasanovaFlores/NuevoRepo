@@ -1,0 +1,181 @@
+@font-face{
+	font-family: "miFuente";
+	src: url("../fuentes/Westmeath.ttf");
+}
+
+*{
+	-webkit-box-sizing: border-box;
+}
+
+footer{
+	position: fixed;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+body{
+	height: auto;
+	width: auto;
+	display: relative;
+	font-family: miFuente;
+	padding: 15px;
+	background-image: url(../img/textura.jpg);
+}
+
+h1{
+	text-shadow: #8cff1a 5px 5px;
+}
+
+aside{
+	position: relative;
+	margin: 10px auto;
+	width: auto;
+	height: auto;
+	/*order: 0px none black;*/
+}
+
+aside input{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+aside button{
+	margin: 165px 10px 10px 10px;
+}
+
+aside textarea{
+	position: absolute;
+	top: 5px;
+	width: 98%;
+	height: 150px;
+	margin: 5px 5px;
+	border-left: 0px;
+	border-right: 0px;
+
+}
+
+section{
+	background-image: url(../img/textura.jpg);
+	display: block;
+	position: relative;
+	margin: 10px auto;
+	width: auto;
+	height: auto;
+	/*border: 2px solid black;*/
+}
+
+textarea{
+	resize: none;
+}
+
+section{
+	display: none;
+}
+
+section > input{
+	margin: 10px auto;
+}
+
+section select{
+	padding: 10px;
+}
+
+button{
+	border-top: 0px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 0px solid black;
+	background-color: transparent;
+
+	letter-spacing: 3px;
+	font-weight: 650;
+
+	color: white;
+
+	padding: 5px;
+
+	cursor: pointer;
+}
+
+#divMando{
+	display: block;
+	width: 100%;
+	margin: 15px auto;
+	background-image: url(../img/textura.jpg);
+}
+
+#canvas{
+	margin: 0px auto;
+	display: block;
+}
+
+div#hijo{
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.eliminado{
+	color: red;
+	-webkit-transition: -webkit-transform 1.5s ease 0s;
+	-webkit-transform: rotate(360deg);
+}
+
+.ganador{
+	color: green;
+	-webkit-transition: -webkit-transform 2s ease 0s;
+	-webkit-transform: rotate(-3600deg);
+}
+
+.inhabilitado{
+	opacity: 0.3;
+}
+
+.habilitado{
+	opacity: 1;
+}
+
+div#lista{
+	display: block;
+	margin: 15px auto;
+}
+
+#lista > ol{
+	margin: 10px auto;
+	column-count: 3;
+	column-gap: 70px;
+}
+
+div#reset input{
+	position: fixed;
+	display: none;
+	bottom: 40px;
+	right: 40px;
+
+	border-top: 0px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 0px solid black;
+	background-color: transparent;
+
+	letter-spacing: 3px;
+	font-weight: 650;
+
+	color: white;
+
+	padding: 5px;
+
+	cursor: pointer;
+}
+
+#receptor{
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	width: 50px;
+	height: 50px
+}

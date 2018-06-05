@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Ruleta del azar</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<section id="section">
+		<div id="divMando">
+			<div id="hijo">
+				<button id="btnGirar">Girar</button>
+				<span class="hijo" id="span">¿Cuantos se irán al agua?</span>
+				<select id="select">
+					<option value="1" selected>1</option>
+					<option value="3">3</option>
+					<option value="7">7</option>
+				</select>
+			</div>
+			<canvas id="canvas" width="400px" height="400px"></canvas>
+		</div>
+	</section>
+
+	<aside id="aside">
+		<textarea id="textarea" cols="70" rows="7" placeholder="Ingresa el nombre de los concursantes, separados por una coma."></textarea>
+		<button id="btnIngresar">A la ruleta!</button>
+	</aside>
+	<div id="lista"></div>
+	<div id="reset">
+		<input type="button" value="Reiniciar" id="btnReset">
+	</div>
+	<div id="receptor">
+	</div>
+	<footer><span><small>SushiSushini</small></span></footer>
+	<script src="js/misFunciones.js"></script>
+	<script src="js/sweetalert.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/Winwheel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
